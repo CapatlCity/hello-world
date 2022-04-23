@@ -1,0 +1,47 @@
+ <html lang="en">
+    <head>
+        <title>Flexbox Demo</title>
+        <style>
+    
+            body {
+                margin: 90px;
+            }
+    
+            /* The flex container is a div */
+            .flexcontainer {
+                background: #0A87AD;
+                border: solid 2px black;
+                border-radius: 4px;
+                padding: 8px;
+                height: 140px;
+                display:flex;
+                /* CSS properties for the flzx container go in this style rule */
+                flex-wrap: wrap;
+        }
+    
+            .flexcontainer div {
+                background: #FA5328;
+                border: solid 2px black;
+                border-radius: 4px;
+                font-size:2em;
+                padding: 2px 4px;
+                margin: 6px;
+                text-align: center;
+                color: white;
+            }
+        </style>
+    </head>
+    
+    <body>
+        <div class="flexcontainer">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+            <div>5</div>
+            <div>6</div>
+            <div>7</div>
+        </div>
+    </body>
+    
+    </html>
